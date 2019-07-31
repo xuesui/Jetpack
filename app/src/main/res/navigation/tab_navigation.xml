@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tab_navigation"
+    app:startDestination="@+id/frontFragment">
+
+    <fragment
+        android:id="@+id/AndroidFragment"
+        android:name="com.example.jetpack.ui.android.AndroidFragment"
+        android:label="android_fragment"
+        tools:layout="@layout/android_fragment" >
+        <action
+            android:id="@+id/action_AndroidFragment_to_androidWebFragment"
+            app:destination="@id/androidWebFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/recommandFragment"
+        android:name="com.example.jetpack.ui.recommand.RecommandFragment"
+        android:label="recommand_fragment"
+        tools:layout="@layout/recommand_fragment" >
+        <action
+            android:id="@+id/action_recommandFragment_to_recommandWebFragment"
+            app:destination="@id/recommandWebFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/frontFragment"
+        android:name="com.example.jetpack.ui.front.FrontFragment"
+        android:label="front_fragment"
+        tools:layout="@layout/front_fragment" >
+        <action
+            android:id="@+id/action_frontFragment_to_webFragment"
+            app:destination="@id/webFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/iosFragment"
+        android:name="com.example.jetpack.ui.ios.IosFragment"
+        android:label="ios_fragment"
+        tools:layout="@layout/ios_fragment" >
+        <action
+            android:id="@+id/action_iosFragment_to_IOSWebFragment"
+            app:destination="@id/IOSWebFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/apppFragment"
+        android:name="com.example.jetpack.ui.appp.ApppFragment"
+        android:label="appp_fragment"
+        tools:layout="@layout/appp_fragment" />
+    <fragment
+        android:id="@+id/webFragment"
+        android:name="com.example.jetpack.ui.front.WebFragment"
+        android:label="web_fragment"
+        tools:layout="@layout/web_fragment" />
+    <fragment
+        android:id="@+id/androidWebFragment"
+        android:name="com.example.jetpack.ui.android.AndroidWebFragment"
+        android:label="android_web_fragment"
+        tools:layout="@layout/android_web_fragment" />
+    <fragment
+        android:id="@+id/IOSWebFragment"
+        android:name="com.example.jetpack.ui.ios.IOSWebFragment"
+        android:label="iosweb_fragment"
+        tools:layout="@layout/iosweb_fragment" />
+    <fragment
+        android:id="@+id/recommandWebFragment"
+        android:name="com.example.jetpack.ui.recommand.RecommandWebFragment"
+        android:label="recommand_web_fragment"
+        tools:layout="@layout/recommand_web_fragment" />
+</navigation>

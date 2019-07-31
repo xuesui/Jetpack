@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/AndroidFragment"
+        android:icon="@drawable/android"
+        android:title="@string/android" />
+
+    <item
+        android:id="@+id/iosFragment"
+        android:icon="@drawable/ios"
+        android:title="@string/ios" />
+
+    <item
+        android:id="@+id/frontFragment"
+        android:icon="@drawable/front"
+        android:title="@string/front" />
+
+    <item
+        android:id="@+id/ApppFragment"
+        android:icon="@drawable/app"
+        android:title="@string/app" />
+
+    <item
+        android:id="@+id/recommandFragment"
+        android:icon="@drawable/recommand"
+        android:title="@string/recommand" />
+
+
+</menu>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">干货集中营</string>
+    <string name="to_settings">进入主页</string>
+    <string name="rootfragment">RootFragment</string>
+    <string name="to_root">返回root</string>
+    <string name="ios">Ios</string>
+    <string name="android">Android</string>
+    <string name="front">前端</string>
+    <string name="recommand">瞎推荐</string>
+    <string name="app">APP</string>
+    <string name="title">干货集中营</string>
+</resources>
